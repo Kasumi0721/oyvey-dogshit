@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.alpha432.oyvey.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "network.MixinConnection"
+  ],
+  "client": [
+    "entity.MixinLocalPlayer",
+    "entity.MixinEntity",
+    "entity.MixinClientPlayerEntity",
+    "particle.MixinSingleQuadParticle",
+    "input.MixinKeyboardHandler",
+    "network.MixinServerboundMovePlayerPacket",
+    "render.MixinCamera",
+    "input.MixinMouseHandler",
+    "network.MixinClientPacketListener",
+    "entity.MixinPlayerAttack",
+    "render.MixinChatComponent",
+    "render.MixinLevelRenderer",
+    "particle.MixinParticleEngine",
+    "render.MixinDeltaTrackerTimer",
+    "render.gui.MixinCommandSuggestions",
+    "render.gui.MixinGui",
+    "input.MixinMultiPlayerGameMode",
+    "accessors.ModelPartAccessor",
+    "accessors.ModelPartCubeAccessor",
+    "render.MixinBiome"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
